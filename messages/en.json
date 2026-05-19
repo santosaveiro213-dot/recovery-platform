@@ -133,15 +133,22 @@
         "help": "We will only use this to send you the shortlist of specialists. Nothing is shared with partners until you confirm.",
         "placeholder": "you@example.com"
       },
+      "phone": {
+        "label": "Phone Number",
+        "help": "We may call to clarify details. Please include your country code.",
+        "placeholder": "+49 30 12345678"
+      },
       "consent": {
         "label": "I agree that Avenger may review my case and contact me with a shortlist of vetted specialists. I understand my data will not be shared with any partner firm without my explicit confirmation."
       },
       "submit": "Find specialists for my case",
       "submitting": "Reviewing your case…"
     },
+    "success": "Your information has been received. We will contact you shortly.",
     "errors": {
       "required": "This field is required.",
       "email": "Please enter a valid email address.",
+      "phone": "Please enter a valid phone number.",
       "description": "Please describe your situation in at least 30 characters.",
       "acknowledge": "Please confirm you understand the privacy notice.",
       "consent": "Please agree to the matching consent to continue.",
@@ -168,7 +175,7 @@
       "languages": "Languages",
       "country": "Based in",
       "visit": "Visit website",
-      "request": "Request introduction",
+      "request": "Request Review",
       "advisorNote": "An Avenger advisor will email you a written summary within 24 hours. If anything feels uncertain, reply to that email and we will guide you."
     }
   },

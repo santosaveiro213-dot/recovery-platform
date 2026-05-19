@@ -23,10 +23,27 @@ export function SubmitForm() {
     const code = fieldError(name);
     if (!code) return undefined;
     if (name === 'contact_email') return t('errors.email');
+    if (name === 'phone') return t('errors.phone');
     if (name === 'description') return t('errors.description');
     if (name === 'acknowledge_privacy') return t('errors.acknowledge');
     if (name === 'consent') return t('errors.consent');
     return t('errors.required');
+  }
+
+  if (state.ok) {
+    return (
+      <div
+        role="status"
+        className="rounded-2xl border border-secondary/30 bg-secondary-50 p-6 text-secondary-900"
+      >
+        <div className="flex items-start gap-3">
+          <span className="flex h-9 w-9 flex-none items-center justify-center rounded-xl bg-secondary text-primary-900">
+            <Icon name="lock" className="h-5 w-5" />
+          </span>
+          <p className="text-base">{t('success')}</p>
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -128,6 +145,24 @@ export function SubmitForm() {
           />
           <p className="form-help">{t('form.email.help')}</p>
           {errorText('contact_email') && <p className="form-error">{errorText('contact_email')}</p>}
+        </div>
+
+        <div className="sm:col-span-2">
+          <label htmlFor="phone" className="form-label">
+            {t('form.phone.label')}
+          </label>
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            inputMode="tel"
+            autoComplete="tel"
+            required
+            placeholder={t('form.phone.placeholder')}
+            className={cn('form-input', fieldError('phone') && 'border-red-400')}
+          />
+          <p className="form-help">{t('form.phone.help')}</p>
+          {errorText('phone') && <p className="form-error">{errorText('phone')}</p>}
         </div>
 
         <div className="sm:col-span-2">

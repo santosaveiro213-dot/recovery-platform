@@ -25,6 +25,7 @@ export interface CaseSubmission {
   country: string;
   description: string;
   contact_email: string;
+  phone: string;
   locale: 'en' | 'de';
   status?: 'pending' | 'reviewed' | 'matched' | 'closed';
   created_at?: string;

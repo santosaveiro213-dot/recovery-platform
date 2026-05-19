@@ -47,6 +47,11 @@ export const caseSchema = z.object({
   country: z.enum(countries),
   description: z.string().trim().min(30),
   contact_email: z.string().trim().email(),
+  phone: z
+    .string()
+    .trim()
+    .min(6)
+    .regex(/^[+\d][\d\s()-]{5,}$/),
   acknowledge_privacy: z.literal('on'),
   consent: z.literal('on'),
   locale: z.enum(['en', 'de']).default('en')

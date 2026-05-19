@@ -133,15 +133,22 @@
         "help": "Wir nutzen sie nur, um Ihnen die Vorauswahl zu schicken. Nichts wird ohne Bestätigung an Partner weitergegeben.",
         "placeholder": "sie@beispiel.de"
       },
+      "phone": {
+        "label": "Telefonnummer",
+        "help": "Wir rufen Sie ggf. an, um Details zu klären. Bitte mit Ländervorwahl angeben.",
+        "placeholder": "+49 30 12345678"
+      },
       "consent": {
         "label": "Ich bin damit einverstanden, dass Avenger meinen Fall prüft und mir eine Vorauswahl geprüfter Spezialisten zusendet. Meine Daten werden ohne meine ausdrückliche Bestätigung an keine Partnerfirma weitergegeben."
       },
       "submit": "Spezialisten für meinen Fall finden",
       "submitting": "Ihr Fall wird geprüft…"
     },
+    "success": "Ihre Informationen wurden erhalten. Wir werden Sie in Kürze kontaktieren.",
     "errors": {
       "required": "Dieses Feld ist erforderlich.",
       "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "phone": "Bitte geben Sie eine gültige Telefonnummer ein.",
       "description": "Bitte beschreiben Sie Ihre Situation mit mindestens 30 Zeichen.",
       "acknowledge": "Bitte bestätigen Sie den Datenschutzhinweis.",
       "consent": "Bitte stimmen Sie der Vermittlung zu, um fortzufahren.",
@@ -168,7 +175,7 @@
       "languages": "Sprachen",
       "country": "Sitz",
       "visit": "Webseite besuchen",
-      "request": "Vorstellung anfragen",
+      "request": "Überprüfung anfordern",
       "advisorNote": "Ein Avenger-Berater sendet Ihnen innerhalb von 24 Stunden eine schriftliche Zusammenfassung. Bei Unklarheiten antworten Sie einfach — wir begleiten Sie."
     }
   },

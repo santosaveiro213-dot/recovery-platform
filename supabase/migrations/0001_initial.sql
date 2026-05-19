@@ -37,6 +37,7 @@ create table if not exists public.case_submissions (
   country text not null,
   description text not null,
   contact_email text not null,
+  phone text not null,
   locale text not null default 'en',
   status case_status_t not null default 'pending',
   created_at timestamptz not null default now()
