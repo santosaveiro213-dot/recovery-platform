@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif;
+  --font-serif: 'Source Serif 4', ui-serif, Georgia, Cambria, 'Times New Roman', serif;
+}
+
+html,
+body {
+  background-color: #f8f7f4;
+  color: #2c2c2c;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(42, 157, 143, 0.25);
+  color: #1e3a5f;
+}
+
+@layer components {
+  .container-prose {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3 text-base font-medium text-white shadow-soft transition hover:bg-primary-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-primary/20 bg-canvas-raised px-6 py-3 text-base font-medium text-primary transition hover:border-primary/40 hover:bg-primary-50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-medium text-ink-soft transition hover:bg-canvas-sunken hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-ink;
+  }
+
+  .form-help {
+    @apply mt-1 text-xs text-ink-muted;
+  }
+
+  .form-input {
+    @apply mt-2 block w-full rounded-xl border border-primary/15 bg-canvas-raised px-4 py-3 text-base text-ink shadow-sm transition placeholder:text-ink-muted/70 focus:border-accent focus:outline-none focus:ring-4 focus:ring-accent/15;
+  }
+
+  .form-error {
+    @apply mt-2 text-sm text-red-600;
+  }
+
+  .card {
+    @apply rounded-2xl border border-primary/10 bg-canvas-raised p-6 shadow-soft;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full bg-primary-50 px-3 py-1 text-xs font-medium text-primary-800;
+  }
+
+  .chip-accent {
+    @apply inline-flex items-center gap-1 rounded-full bg-accent-50 px-3 py-1 text-xs font-medium text-accent-800;
+  }
+
+  .chip-gold {
+    @apply inline-flex items-center gap-1 rounded-full bg-secondary-100 px-3 py-1 text-xs font-medium text-secondary-800;
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "title": "Avenger — Reclaim what was taken from you",
+    "description": "Avenger connects victims of investment fraud, crypto loss, bank fraud and romance scams with vetted recovery specialists across Europe and beyond."
+  },
+  "nav": {
+    "brand": "Avenger",
+    "tagline": "Financial Recovery Advisory",
+    "howItWorks": "How it works",
+    "trust": "Why Avenger",
+    "submitCase": "Submit your case",
+    "languageLabel": "Language"
+  },
+  "footer": {
+    "rightsReserved": "All rights reserved.",
+    "disclaimerTitle": "About this service",
+    "disclaimer": "Avenger is an independent advisory platform. We do not represent victims directly — we connect them with regulated and vetted recovery firms. No outcome is guaranteed. We never ask for upfront fees from victims.",
+    "linkPrivacy": "Privacy",
+    "linkTerms": "Terms",
+    "linkContact": "Contact"
+  },
+  "landing": {
+    "hero": {
+      "eyebrow": "Trusted recovery advisory",
+      "title": "You were wronged. We help you find who can put it right.",
+      "subtitle": "Avenger is a careful, independent advisory service for people who have lost money to investment fraud, crypto schemes, bank fraud or romance scams. We listen to your situation, then match you with the recovery specialists best suited to your case — at no cost to you.",
+      "ctaPrimary": "Submit your case confidentially",
+      "ctaSecondary": "See how it works",
+      "reassurance": "Free • Confidential • No obligation"
+    },
+    "stats": {
+      "casesReviewed": "Cases reviewed",
+      "partnerFirms": "Vetted partner firms",
+      "countries": "Countries served",
+      "avgResponse": "Average response time"
+    },
+    "howItWorks": {
+      "eyebrow": "How it works",
+      "title": "A calm, structured path forward",
+      "subtitle": "We have designed every step to feel human, transparent and safe. You stay in control throughout.",
+      "steps": [
+        {
+          "title": "Tell us what happened",
+          "body": "Share a brief, encrypted description of your situation through our short form. We only ask for what is genuinely useful — never passwords, full account numbers or copies of ID."
+        },
+        {
+          "title": "We analyse and match",
+          "body": "Our advisors review your case against a network of vetted recovery firms — comparing jurisdiction, loss type, language and track record to find a real fit."
+        },
+        {
+          "title": "You choose who to speak with",
+          "body": "We present you with a shortlist of specialists, with clear information on each. You decide who, if anyone, you would like to contact. There is no obligation."
+        }
+      ]
+    },
+    "trust": {
+      "eyebrow": "Why people trust Avenger",
+      "title": "Built around the way real victims actually feel",
+      "subtitle": "Most recovery platforms are built for clicks. Avenger is built for people who are anxious, ashamed, and tired of being sold to.",
+      "pillars": [
+        {
+          "title": "We never charge victims",
+          "body": "Our advisory service is free. Partner firms pay us only when they take on a case — and never out of recovered funds without your written consent."
+        },
+        {
+          "title": "Every firm is vetted",
+          "body": "We verify regulatory standing, complaints history and case outcomes before any firm joins our network — and we remove those that fall short."
+        },
+        {
+          "title": "Your data is minimal and encrypted",
+          "body": "We deliberately collect as little as possible. What we do collect is encrypted in transit and at rest, and you can request deletion at any time."
+        },
+        {
+          "title": "Human advisors, not bots",
+          "body": "A real advisor reviews every case. We will tell you honestly if recovery is unlikely — rather than passing you to a firm that will take you on regardless."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to take the first step?",
+      "subtitle": "It takes about three minutes. You can stop at any time — nothing is shared until you confirm.",
+      "button": "Start my case"
+    }
+  },
+  "submit": {
+    "header": {
+      "eyebrow": "Confidential intake",
+      "title": "Tell us about your case",
+      "subtitle": "We will read every word. The more you can share, the better we can match you — but only share what you are comfortable with. You can always add more later."
+    },
+    "privacy": {
+      "title": "Please do not share sensitive personal data",
+      "body": "Avenger does not need — and will never ask for — your passwords, full bank or card numbers, government ID numbers, seed phrases or copies of identity documents. If a recovery firm later requires verification, they will request it directly through a secure channel.",
+      "acknowledge": "I understand and will not share sensitive credentials in this form."
+    },
+    "form": {
+      "lossType": {
+        "label": "What type of loss are you reporting?",
+        "help": "Choose the option that fits best. You can describe nuances in the message below.",
+        "placeholder": "Select the type of loss",
+        "options": {
+          "investment_fraud": "Investment fraud",
+          "crypto_loss": "Cryptocurrency loss",
+          "bank_fraud": "Bank or card fraud",
+          "romance_scam": "Romance scam",
+          "other": "Other"
+        }
+      },
+      "amount": {
+        "label": "Approximate amount lost",
+        "help": "A rough range is fine — we use it only to match firms with the right experience.",
+        "options": {
+          "under_5k": "Under €5,000",
+          "5k_25k": "€5,000 – €25,000",
+          "25k_100k": "€25,000 – €100,000",
+          "100k_500k": "€100,000 – €500,000",
+          "over_500k": "Over €500,000",
+          "prefer_not": "Prefer not to say"
+        }
+      },
+      "country": {
+        "label": "Country where the incident occurred",
+        "help": "This helps us route your case to firms licensed in the right jurisdiction.",
+        "placeholder": "Select a country"
+      },
+      "description": {
+        "label": "Brief description of what happened",
+        "help": "A few sentences is enough. Avoid sharing passwords, full account numbers, or copies of ID.",
+        "placeholder": "For example: I was contacted through a messaging app about a trading platform. Over two months, I transferred funds in several instalments. When I tried to withdraw, the platform asked for additional fees and then stopped responding."
+      },
+      "email": {
+        "label": "Your contact email",
+        "help": "We will only use this to send you the shortlist of specialists. Nothing is shared with partners until you confirm.",
+        "placeholder": "you@example.com"
+      },
+      "consent": {
+        "label": "I agree that Avenger may review my case and contact me with a shortlist of vetted specialists. I understand my data will not be shared with any partner firm without my explicit confirmation."
+      },
+      "submit": "Find specialists for my case",
+      "submitting": "Reviewing your case…"
+    },
+    "errors": {
+      "required": "This field is required.",
+      "email": "Please enter a valid email address.",
+      "description": "Please describe your situation in at least 30 characters.",
+      "acknowledge": "Please confirm you understand the privacy notice.",
+      "consent": "Please agree to the matching consent to continue.",
+      "generic": "Something went wrong on our end. Please try again in a moment."
+    }
+  },
+  "results": {
+    "thinking": {
+      "title": "We are reviewing your case",
+      "subtitle": "This usually takes a few seconds. Please stay on this page.",
+      "messages": [
+        "Analyzing your situation…",
+        "Searching our network…",
+        "Reviewing jurisdiction and loss type…",
+        "Finding the best specialists for you…"
+      ]
+    },
+    "matches": {
+      "eyebrow": "Your shortlist",
+      "title": "Specialists matched to your case",
+      "subtitle": "Each of these firms has been independently verified by our team. Contact whichever you feel most comfortable with — there is no obligation.",
+      "empty": "We could not find a clear match yet. An advisor will personally review your case and email you within 24 hours.",
+      "specialization": "Specialization",
+      "languages": "Languages",
+      "country": "Based in",
+      "visit": "Visit website",
+      "request": "Request introduction",
+      "advisorNote": "An Avenger advisor will email you a written summary within 24 hours. If anything feels uncertain, reply to that email and we will guide you."
+    }
+  },
+  "common": {
+    "back": "Back",
+    "continue": "Continue",
+    "loading": "Loading…",
+    "selectCountry": "Select a country",
+    "countries": {
+      "DE": "Germany",
+      "AT": "Austria",
+      "CH": "Switzerland",
+      "GB": "United Kingdom",
+      "IE": "Ireland",
+      "FR": "France",
+      "NL": "Netherlands",
+      "BE": "Belgium",
+      "ES": "Spain",
+      "IT": "Italy",
+      "PT": "Portugal",
+      "SE": "Sweden",
+      "NO": "Norway",
+      "DK": "Denmark",
+      "FI": "Finland",
+      "PL": "Poland",
+      "CZ": "Czech Republic",
+      "US": "United States",
+      "CA": "Canada",
+      "AU": "Australia",
+      "OTHER": "Other"
+    }
+  }
+}

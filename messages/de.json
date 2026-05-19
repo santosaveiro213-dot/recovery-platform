@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "title": "Avenger — Zurückholen, was Ihnen genommen wurde",
+    "description": "Avenger verbindet Opfer von Anlagebetrug, Krypto-Verlusten, Bankbetrug und Romance-Scams mit geprüften Recovery-Spezialisten."
+  },
+  "nav": {
+    "brand": "Avenger",
+    "tagline": "Finanzielle Recovery-Beratung",
+    "howItWorks": "So funktioniert es",
+    "trust": "Warum Avenger",
+    "submitCase": "Fall einreichen",
+    "languageLabel": "Sprache"
+  },
+  "footer": {
+    "rightsReserved": "Alle Rechte vorbehalten.",
+    "disclaimerTitle": "Über diesen Dienst",
+    "disclaimer": "Avenger ist eine unabhängige Beratungsplattform. Wir vertreten Opfer nicht direkt — wir verbinden sie mit regulierten und geprüften Recovery-Firmen. Ein Erfolg kann nicht garantiert werden. Wir verlangen niemals Vorauszahlungen von Opfern.",
+    "linkPrivacy": "Datenschutz",
+    "linkTerms": "AGB",
+    "linkContact": "Kontakt"
+  },
+  "landing": {
+    "hero": {
+      "eyebrow": "Vertrauensvolle Recovery-Beratung",
+      "title": "Ihnen wurde Unrecht getan. Wir helfen Ihnen, die Richtigen zu finden.",
+      "subtitle": "Avenger ist ein sorgfältiger, unabhängiger Beratungsdienst für Menschen, die Geld durch Anlagebetrug, Krypto-Schemata, Bankbetrug oder Romance-Scams verloren haben. Wir hören zu und vermitteln dann die für Ihren Fall am besten geeigneten Recovery-Spezialisten — kostenfrei für Sie.",
+      "ctaPrimary": "Fall vertraulich einreichen",
+      "ctaSecondary": "So funktioniert es",
+      "reassurance": "Kostenfrei • Vertraulich • Unverbindlich"
+    },
+    "stats": {
+      "casesReviewed": "Fälle geprüft",
+      "partnerFirms": "Geprüfte Partner",
+      "countries": "Länder",
+      "avgResponse": "Antwortzeit Ø"
+    },
+    "howItWorks": {
+      "eyebrow": "So funktioniert es",
+      "title": "Ein ruhiger, klarer Weg nach vorn",
+      "subtitle": "Jeder Schritt ist menschlich, transparent und sicher gestaltet. Sie behalten jederzeit die Kontrolle.",
+      "steps": [
+        {
+          "title": "Erzählen Sie uns, was passiert ist",
+          "body": "Schildern Sie Ihre Situation kurz und verschlüsselt in unserem Formular. Wir fragen nur nach wirklich Notwendigem — niemals nach Passwörtern, vollständigen Kontonummern oder Ausweiskopien."
+        },
+        {
+          "title": "Wir analysieren und vermitteln",
+          "body": "Unsere Berater prüfen Ihren Fall gegen ein Netzwerk geprüfter Recovery-Firmen — nach Rechtsraum, Verlustart, Sprache und Erfolgsbilanz."
+        },
+        {
+          "title": "Sie entscheiden, mit wem Sie sprechen",
+          "body": "Wir präsentieren Ihnen eine Vorauswahl mit klaren Informationen zu jeder Firma. Sie entscheiden, ob und mit wem Sie Kontakt aufnehmen — unverbindlich."
+        }
+      ]
+    },
+    "trust": {
+      "eyebrow": "Warum man Avenger vertraut",
+      "title": "Gestaltet für das, was Betroffene wirklich brauchen",
+      "subtitle": "Die meisten Recovery-Plattformen sind auf Klicks ausgelegt. Avenger ist für Menschen gedacht, die verunsichert und erschöpft sind und nicht weiter verkauft werden wollen.",
+      "pillars": [
+        {
+          "title": "Wir verlangen nie von Opfern Geld",
+          "body": "Unser Beratungsdienst ist kostenfrei. Partnerfirmen zahlen uns nur bei Mandatsübernahme — und niemals aus zurückgeholten Geldern ohne Ihre schriftliche Zustimmung."
+        },
+        {
+          "title": "Jede Firma ist geprüft",
+          "body": "Wir prüfen Zulassung, Beschwerdehistorie und Ergebnisse, bevor eine Firma in unser Netzwerk aufgenommen wird — und entfernen jene, die unsere Standards nicht erfüllen."
+        },
+        {
+          "title": "Minimale, verschlüsselte Daten",
+          "body": "Wir erheben bewusst so wenig wie möglich. Was wir erheben, ist verschlüsselt — und Sie können die Löschung jederzeit verlangen."
+        },
+        {
+          "title": "Menschliche Berater, keine Bots",
+          "body": "Jeden Fall prüft ein echter Berater. Wir sagen Ihnen ehrlich, wenn eine Wiederbeschaffung unwahrscheinlich ist — statt Sie an eine Firma weiterzugeben, die Sie ohnehin annimmt."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit für den ersten Schritt?",
+      "subtitle": "Es dauert etwa drei Minuten. Sie können jederzeit aufhören — nichts wird ohne Ihre Bestätigung weitergegeben.",
+      "button": "Fall starten"
+    }
+  },
+  "submit": {
+    "header": {
+      "eyebrow": "Vertrauliche Aufnahme",
+      "title": "Erzählen Sie uns von Ihrem Fall",
+      "subtitle": "Wir lesen jedes Wort. Je mehr Sie teilen, desto besser können wir vermitteln — teilen Sie aber nur, womit Sie sich wohlfühlen. Ergänzungen sind später möglich."
+    },
+    "privacy": {
+      "title": "Bitte keine sensiblen persönlichen Daten teilen",
+      "body": "Avenger benötigt — und fragt niemals — nach Passwörtern, vollständigen Bank- oder Kartennummern, Ausweisnummern, Seed-Phrasen oder Ausweiskopien. Falls eine Recovery-Firma später eine Verifizierung benötigt, erfolgt diese über einen sicheren Kanal.",
+      "acknowledge": "Ich verstehe das und werde in diesem Formular keine sensiblen Zugangsdaten weitergeben."
+    },
+    "form": {
+      "lossType": {
+        "label": "Welche Art von Verlust melden Sie?",
+        "help": "Wählen Sie die passendste Option. Details können Sie unten beschreiben.",
+        "placeholder": "Art des Verlusts wählen",
+        "options": {
+          "investment_fraud": "Anlagebetrug",
+          "crypto_loss": "Kryptowährungsverlust",
+          "bank_fraud": "Bank- oder Kartenbetrug",
+          "romance_scam": "Romance-Scam",
+          "other": "Sonstiges"
+        }
+      },
+      "amount": {
+        "label": "Ungefährer Verlustbetrag",
+        "help": "Eine Spanne reicht — sie hilft uns nur, die passende Firma zu finden.",
+        "options": {
+          "under_5k": "Unter 5.000 €",
+          "5k_25k": "5.000 € – 25.000 €",
+          "25k_100k": "25.000 € – 100.000 €",
+          "100k_500k": "100.000 € – 500.000 €",
+          "over_500k": "Über 500.000 €",
+          "prefer_not": "Möchte ich nicht angeben"
+        }
+      },
+      "country": {
+        "label": "Land, in dem der Vorfall stattfand",
+        "help": "Hilft uns, eine in der richtigen Jurisdiktion zugelassene Firma zu finden.",
+        "placeholder": "Land wählen"
+      },
+      "description": {
+        "label": "Kurze Beschreibung des Vorfalls",
+        "help": "Ein paar Sätze genügen. Bitte keine Passwörter, vollständige Kontonummern oder Ausweisdaten teilen.",
+        "placeholder": "Beispiel: Ich wurde über einen Messenger zu einer Handelsplattform kontaktiert. Über zwei Monate überwies ich Beträge in mehreren Raten. Beim Auszahlungsversuch verlangte die Plattform zusätzliche Gebühren und reagierte dann nicht mehr."
+      },
+      "email": {
+        "label": "Ihre Kontakt-E-Mail",
+        "help": "Wir nutzen sie nur, um Ihnen die Vorauswahl zu schicken. Nichts wird ohne Bestätigung an Partner weitergegeben.",
+        "placeholder": "sie@beispiel.de"
+      },
+      "consent": {
+        "label": "Ich bin damit einverstanden, dass Avenger meinen Fall prüft und mir eine Vorauswahl geprüfter Spezialisten zusendet. Meine Daten werden ohne meine ausdrückliche Bestätigung an keine Partnerfirma weitergegeben."
+      },
+      "submit": "Spezialisten für meinen Fall finden",
+      "submitting": "Ihr Fall wird geprüft…"
+    },
+    "errors": {
+      "required": "Dieses Feld ist erforderlich.",
+      "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "description": "Bitte beschreiben Sie Ihre Situation mit mindestens 30 Zeichen.",
+      "acknowledge": "Bitte bestätigen Sie den Datenschutzhinweis.",
+      "consent": "Bitte stimmen Sie der Vermittlung zu, um fortzufahren.",
+      "generic": "Etwas ist schiefgelaufen. Bitte versuchen Sie es in einem Moment erneut."
+    }
+  },
+  "results": {
+    "thinking": {
+      "title": "Wir prüfen Ihren Fall",
+      "subtitle": "Das dauert meist wenige Sekunden. Bitte bleiben Sie auf dieser Seite.",
+      "messages": [
+        "Ihre Situation wird analysiert…",
+        "Unser Netzwerk wird durchsucht…",
+        "Rechtsraum und Verlustart werden geprüft…",
+        "Die besten Spezialisten werden für Sie ausgewählt…"
+      ]
+    },
+    "matches": {
+      "eyebrow": "Ihre Vorauswahl",
+      "title": "Auf Ihren Fall abgestimmte Spezialisten",
+      "subtitle": "Jede dieser Firmen wurde von unserem Team unabhängig geprüft. Kontaktieren Sie diejenige, bei der Sie sich am wohlsten fühlen — ganz unverbindlich.",
+      "empty": "Wir haben noch keine klare Übereinstimmung gefunden. Ein Berater wird Ihren Fall persönlich prüfen und sich innerhalb von 24 Stunden bei Ihnen melden.",
+      "specialization": "Spezialisierung",
+      "languages": "Sprachen",
+      "country": "Sitz",
+      "visit": "Webseite besuchen",
+      "request": "Vorstellung anfragen",
+      "advisorNote": "Ein Avenger-Berater sendet Ihnen innerhalb von 24 Stunden eine schriftliche Zusammenfassung. Bei Unklarheiten antworten Sie einfach — wir begleiten Sie."
+    }
+  },
+  "common": {
+    "back": "Zurück",
+    "continue": "Weiter",
+    "loading": "Lädt…",
+    "selectCountry": "Land wählen",
+    "countries": {
+      "DE": "Deutschland",
+      "AT": "Österreich",
+      "CH": "Schweiz",
+      "GB": "Vereinigtes Königreich",
+      "IE": "Irland",
+      "FR": "Frankreich",
+      "NL": "Niederlande",
+      "BE": "Belgien",
+      "ES": "Spanien",
+      "IT": "Italien",
+      "PT": "Portugal",
+      "SE": "Schweden",
+      "NO": "Norwegen",
+      "DK": "Dänemark",
+      "FI": "Finnland",
+      "PL": "Polen",
+      "CZ": "Tschechien",
+      "US": "Vereinigte Staaten",
+      "CA": "Kanada",
+      "AU": "Australien",
+      "OTHER": "Sonstiges"
+    }
+  }
+}
