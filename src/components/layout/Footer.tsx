@@ -20,18 +20,18 @@ export function Footer() {
           </p>
           <ul className="mt-4 space-y-2 text-sm text-ink-soft">
             <li>
-              <Link href={`/${locale}#how-it-works`} className="hover:text-primary">
-                {t.raw('linkPrivacy')}
+              <Link href={`/${locale}/privacy`} className="hover:text-primary">
+                {t('linkPrivacy')}
               </Link>
             </li>
             <li>
-              <Link href={`/${locale}#trust`} className="hover:text-primary">
-                {t.raw('linkTerms')}
+              <Link href={`/${locale}/terms`} className="hover:text-primary">
+                {t('linkTerms')}
               </Link>
             </li>
             <li>
-              <Link href={`/${locale}/submit`} className="hover:text-primary">
-                {t.raw('linkContact')}
+              <Link href={`/${locale}/contact`} className="hover:text-primary">
+                {t('linkContact')}
               </Link>
             </li>
           </ul>

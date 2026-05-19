@@ -80,6 +80,20 @@
       "title": "Ready to take the first step?",
       "subtitle": "It takes about three minutes. You can stop at any time — nothing is shared until you confirm.",
       "button": "Start my case"
+    },
+    "queue": {
+      "header": "Live advisory queue",
+      "footer": "Advisors are reviewing cases right now.",
+      "types": {
+        "investment_fraud": "Investment fraud",
+        "crypto_recovery": "Crypto recovery",
+        "bank_fraud": "Bank fraud",
+        "romance_scam": "Romance scam"
+      },
+      "status": {
+        "review": "In review",
+        "matched": "Matched in {min} min"
+      }
     }
   },
   "submit": {
@@ -178,6 +192,73 @@
       "request": "Request Review",
       "advisorNote": "An Avenger advisor will email you a written summary within 24 hours. If anything feels uncertain, reply to that email and we will guide you."
     }
+  },
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: May 2026",
+    "intro": "This notice explains what data Avenger Advisory collects when you submit a case, how we use it, and the rights you have under applicable data-protection law — including the EU General Data Protection Regulation (GDPR).",
+    "sections": [
+      {
+        "title": "Information we collect",
+        "body": "When you submit a case we collect the loss type, an approximate amount range, the country where the incident occurred, your contact email, your phone number, and the description you provide. We deliberately do not collect identity documents, passwords, full account or card numbers, or seed phrases."
+      },
+      {
+        "title": "How we use your information",
+        "body": "We use the information you submit solely to review your case, prepare a shortlist of vetted recovery specialists, and contact you with that shortlist. No data is shared with any partner firm until you explicitly confirm."
+      },
+      {
+        "title": "Data retention and deletion",
+        "body": "Case data is retained for as long as needed to provide our advisory service and to comply with legal obligations. You may request deletion of your data at any time by emailing the contact address below."
+      },
+      {
+        "title": "Your rights",
+        "body": "Under GDPR you have the right to access, correct, restrict, or delete the personal data we hold about you, to receive a copy of it in a portable format, to object to certain processing, and to lodge a complaint with your local supervisory authority."
+      },
+      {
+        "title": "Contact",
+        "body": "For privacy questions or to exercise any of the rights described above, please email contact@avenger-advisory.com."
+      }
+    ]
+  },
+  "terms": {
+    "eyebrow": "Legal",
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: May 2026",
+    "intro": "These terms govern your use of the Avenger Advisory platform. By submitting a case or using any part of the service, you agree to the terms set out below.",
+    "sections": [
+      {
+        "title": "Our service",
+        "body": "Avenger is an independent advisory platform that connects victims of financial fraud with vetted recovery specialists. We do not directly represent victims, recover funds ourselves, or guarantee any specific outcome."
+      },
+      {
+        "title": "Eligibility",
+        "body": "The service is intended for individuals who have personally suffered financial losses through fraud or scams. You must be at least 18 years old and submit information that is truthful and your own."
+      },
+      {
+        "title": "Fees",
+        "body": "Our advisory service is free for victims. Partner firms may pay us a referral fee only after they take on a case, and never out of recovered funds without your written consent."
+      },
+      {
+        "title": "Limitations of liability",
+        "body": "Avenger acts as an intermediary only. We are not responsible for the conduct, fees, or outcomes of any partner firm. Nothing on this platform constitutes legal, financial, or tax advice."
+      },
+      {
+        "title": "Governing law",
+        "body": "These terms are governed by the laws of Germany. Disputes will be resolved by the courts having jurisdiction at our registered office, unless mandatory consumer-protection law provides otherwise."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "intro": "For general questions, partnership inquiries, or media requests, please reach us by email. For case-specific questions, please submit a case so our advisors can review your situation and respond with full context.",
+    "emailLabel": "Email",
+    "email": "contact@avenger-advisory.com",
+    "responseLabel": "Response time",
+    "response": "We aim to respond within one business day, Monday to Friday.",
+    "caseLinkLabel": "Have a case to discuss?",
+    "caseLinkText": "Submit your case confidentially"
   },
   "common": {
     "back": "Back",

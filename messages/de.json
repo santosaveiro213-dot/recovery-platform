@@ -80,6 +80,20 @@
       "title": "Bereit für den ersten Schritt?",
       "subtitle": "Es dauert etwa drei Minuten. Sie können jederzeit aufhören — nichts wird ohne Ihre Bestätigung weitergegeben.",
       "button": "Fall starten"
+    },
+    "queue": {
+      "header": "Live-Fallübersicht",
+      "footer": "Berater prüfen aktuell Fälle.",
+      "types": {
+        "investment_fraud": "Anlagebetrug",
+        "crypto_recovery": "Krypto-Wiederherstellung",
+        "bank_fraud": "Bankbetrug",
+        "romance_scam": "Romance-Scam"
+      },
+      "status": {
+        "review": "In Prüfung",
+        "matched": "Vermittelt in {min} Min."
+      }
     }
   },
   "submit": {
@@ -178,6 +192,73 @@
       "request": "Überprüfung anfordern",
       "advisorNote": "Ein Avenger-Berater sendet Ihnen innerhalb von 24 Stunden eine schriftliche Zusammenfassung. Bei Unklarheiten antworten Sie einfach — wir begleiten Sie."
     }
+  },
+  "privacy": {
+    "eyebrow": "Rechtliches",
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: Mai 2026",
+    "intro": "Diese Erklärung beschreibt, welche Daten Avenger Advisory bei der Einreichung eines Falles erhebt, wie wir sie verwenden und welche Rechte Ihnen nach geltendem Datenschutzrecht — einschließlich der EU-Datenschutz-Grundverordnung (DSGVO) — zustehen.",
+    "sections": [
+      {
+        "title": "Welche Daten wir erheben",
+        "body": "Bei der Einreichung eines Falles erheben wir die Art des Verlusts, eine ungefähre Betragsspanne, das Land des Vorfalls, Ihre Kontakt-E-Mail-Adresse, Ihre Telefonnummer sowie die von Ihnen verfasste Schilderung. Wir erheben bewusst keine Ausweisdokumente, Passwörter, vollständigen Konto- oder Kartennummern und keine Seed-Phrasen."
+      },
+      {
+        "title": "Wie wir Ihre Daten verwenden",
+        "body": "Wir verwenden die übermittelten Informationen ausschließlich, um Ihren Fall zu prüfen, eine Vorauswahl geprüfter Recovery-Spezialisten zusammenzustellen und Ihnen diese mitzuteilen. Ohne Ihre ausdrückliche Bestätigung werden keine Daten an Partnerfirmen weitergegeben."
+      },
+      {
+        "title": "Speicherdauer und Löschung",
+        "body": "Falldaten werden so lange gespeichert, wie es zur Erbringung unseres Beratungsdienstes und zur Erfüllung gesetzlicher Pflichten erforderlich ist. Sie können die Löschung Ihrer Daten jederzeit per E-Mail an die unten genannte Adresse verlangen."
+      },
+      {
+        "title": "Ihre Rechte",
+        "body": "Nach der DSGVO haben Sie das Recht auf Auskunft, Berichtigung, Einschränkung und Löschung Ihrer personenbezogenen Daten, auf Datenübertragbarkeit, auf Widerspruch gegen bestimmte Verarbeitungen sowie auf Beschwerde bei der zuständigen Aufsichtsbehörde."
+      },
+      {
+        "title": "Kontakt",
+        "body": "Bei Fragen zum Datenschutz oder zur Ausübung der oben genannten Rechte schreiben Sie uns bitte an contact@avenger-advisory.com."
+      }
+    ]
+  },
+  "terms": {
+    "eyebrow": "Rechtliches",
+    "title": "Allgemeine Geschäftsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: Mai 2026",
+    "intro": "Diese Bedingungen regeln die Nutzung der Plattform Avenger Advisory. Mit der Einreichung eines Falles oder der Nutzung eines Teils des Dienstes akzeptieren Sie die nachstehenden Bedingungen.",
+    "sections": [
+      {
+        "title": "Unser Dienst",
+        "body": "Avenger ist eine unabhängige Beratungsplattform, die Opfer von Finanzbetrug mit geprüften Recovery-Spezialisten verbindet. Wir vertreten Opfer nicht direkt, treiben keine Gelder selbst ein und garantieren kein bestimmtes Ergebnis."
+      },
+      {
+        "title": "Voraussetzungen",
+        "body": "Der Dienst richtet sich an Personen, die persönlich finanzielle Verluste durch Betrug oder Scams erlitten haben. Sie müssen mindestens 18 Jahre alt sein und ausschließlich wahrheitsgemäße, eigene Angaben einreichen."
+      },
+      {
+        "title": "Gebühren",
+        "body": "Unser Beratungsdienst ist für Opfer kostenfrei. Partnerfirmen zahlen uns gegebenenfalls eine Vermittlungsgebühr erst nach Mandatsübernahme — niemals aus zurückgeholten Geldern ohne Ihre schriftliche Zustimmung."
+      },
+      {
+        "title": "Haftungsbeschränkung",
+        "body": "Avenger handelt ausschließlich als Vermittler. Wir haften nicht für das Verhalten, die Gebühren oder die Ergebnisse von Partnerfirmen. Inhalte auf dieser Plattform stellen keine Rechts-, Finanz- oder Steuerberatung dar."
+      },
+      {
+        "title": "Anwendbares Recht",
+        "body": "Diese Bedingungen unterliegen deutschem Recht. Streitigkeiten werden, soweit nicht zwingendes Verbraucherrecht etwas anderes vorsieht, vor den für unseren Geschäftssitz zuständigen Gerichten geklärt."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Sprechen Sie uns an",
+    "intro": "Für allgemeine Fragen, Partneranfragen oder Medienanfragen erreichen Sie uns per E-Mail. Für fallspezifische Fragen reichen Sie bitte einen Fall ein, damit unsere Berater Ihre Situation prüfen und mit vollständigem Kontext antworten können.",
+    "emailLabel": "E-Mail",
+    "email": "contact@avenger-advisory.com",
+    "responseLabel": "Antwortzeit",
+    "response": "Wir antworten in der Regel innerhalb eines Werktages, Montag bis Freitag.",
+    "caseLinkLabel": "Möchten Sie einen Fall besprechen?",
+    "caseLinkText": "Fall vertraulich einreichen"
   },
   "common": {
     "back": "Zurück",

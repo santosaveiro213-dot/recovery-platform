@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { SectionEyebrow } from '@/components/ui/SectionEyebrow';
 import { Icon } from '@/components/ui/Icon';
+import { LiveAdvisoryQueue } from '@/components/landing/LiveAdvisoryQueue';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -192,7 +193,7 @@ function HeroSection({
           </dl>
         </div>
 
-        <HeroIllustration />
+        <LiveAdvisoryQueue />
       </div>
     </section>
   );
@@ -206,47 +207,6 @@ function Stat({ value, label }: { value: string; label: string }) {
         dangerouslySetInnerHTML={{ __html: value }}
       />
       <dd className="mt-1 text-xs uppercase tracking-[0.14em] text-ink-muted">{label}</dd>
-    </div>
-  );
-}
-
-function HeroIllustration() {
-  return (
-    <div className="relative">
-      <div className="card relative overflow-hidden p-0">
-        <div className="border-b border-primary/10 bg-canvas-sunken/60 px-6 py-3 text-xs uppercase tracking-[0.16em] text-ink-muted">
-          <span className="mr-2 inline-block h-2 w-2 rounded-full bg-accent" />
-          Live advisory queue
-        </div>
-        <ul className="divide-y divide-primary/10">
-          {[
-            { city: 'Berlin, DE', type: 'Investment fraud', match: 'Matched in 12 min' },
-            { city: 'Zurich, CH', type: 'Crypto recovery', match: 'Matched in 18 min' },
-            { city: 'Dublin, IE', type: 'Card fraud', match: 'Matched in 9 min' },
-            { city: 'Vienna, AT', type: 'Romance scam', match: 'In review' }
-          ].map((row) => (
-            <li key={row.city} className="flex items-center justify-between gap-4 px-6 py-4">
-              <div>
-                <p className="text-sm font-medium text-ink">{row.type}</p>
-                <p className="text-xs text-ink-muted">{row.city}</p>
-              </div>
-              <span className="chip-accent">{row.match}</span>
-            </li>
-          ))}
-        </ul>
-        <div className="border-t border-primary/10 bg-canvas-sunken/40 px-6 py-3 text-xs text-ink-muted">
-          Advisors are reviewing cases right now.
-        </div>
-      </div>
-
-      <div
-        aria-hidden
-        className="absolute -bottom-6 -right-6 -z-10 h-40 w-40 rounded-full bg-secondary/30 blur-3xl"
-      />
-      <div
-        aria-hidden
-        className="absolute -top-8 -left-8 -z-10 h-32 w-32 rounded-full bg-accent/30 blur-3xl"
-      />
     </div>
   );
 }
