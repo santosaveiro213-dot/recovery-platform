@@ -60,3 +60,9 @@ drop policy if exists "Anonymous insert case submissions" on public.case_submiss
 create policy "Anonymous insert case submissions"
   on public.case_submissions for insert
   with check (true);
+
+-- RLS policies are additional to GRANTs, not a replacement. Without these grants
+-- the anon/authenticated roles cannot reach the policy check and inserts/selects
+-- fail with "permission denied for table" (SQLSTATE 42501).
+grant select on public.companies to anon, authenticated;
+grant insert on public.case_submissions to anon, authenticated;
