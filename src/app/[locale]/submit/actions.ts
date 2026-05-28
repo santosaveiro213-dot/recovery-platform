@@ -75,7 +75,8 @@ export async function submitCaseAction(
       fullName: data.contact_email,
       email: data.contact_email,
       phone: data.phone,
-      source: 'Avenger'
+      source: 'Avenger',
+      notes: `Amount: ${data.amount_range}\nCountry: ${data.country}\nDescription: ${data.description}`
     })
   }).catch(() => {});
 
