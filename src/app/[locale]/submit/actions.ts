@@ -100,7 +100,7 @@ export async function submitCaseAction(
 
   console.log('firing webhook to CRM...');
   try {
-    await fetch('https://avekizuna.com/api/webhook/lead', {
+    const response = await fetch('https://avekizuna.com/api/webhook/lead', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -114,7 +114,12 @@ export async function submitCaseAction(
         note: `Amount: ${amountLabels[data.amount_range]}\nCountry: ${countryLabels[data.country]}\nDescription: ${data.description}`
       })
     });
-    console.log('webhook completed');
+    if (!response.ok) {
+      const body = await response.text().catch(() => '<unreadable>');
+      console.error('webhook non-2xx:', response.status, body);
+    } else {
+      console.log('webhook completed', response.status);
+    }
   } catch (err) {
     console.error('webhook error:', err);
   }
