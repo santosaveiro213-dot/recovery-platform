@@ -1,6 +1,6 @@
 'use server';
 
-import { caseSchema } from '@/lib/case-schema';
+import { caseSchema, type AmountRange, type CountryCode } from '@/lib/case-schema';
 import { getServerSupabase, isSupabaseConfigured } from '@/lib/supabase/server';
 
 export interface SubmissionResult {
@@ -8,6 +8,39 @@ export interface SubmissionResult {
   fieldErrors?: Partial<Record<string, string>>;
   formError?: string;
 }
+
+const amountLabels: Record<AmountRange, string> = {
+  under_5k: 'Under €5,000',
+  '5k_25k': '€5,000 – €25,000',
+  '25k_100k': '€25,000 – €100,000',
+  '100k_500k': '€100,000 – €500,000',
+  over_500k: 'Over €500,000',
+  prefer_not: 'Prefer not to say'
+};
+
+const countryLabels: Record<CountryCode, string> = {
+  DE: 'Germany',
+  AT: 'Austria',
+  CH: 'Switzerland',
+  GB: 'United Kingdom',
+  IE: 'Ireland',
+  FR: 'France',
+  NL: 'Netherlands',
+  BE: 'Belgium',
+  ES: 'Spain',
+  IT: 'Italy',
+  PT: 'Portugal',
+  SE: 'Sweden',
+  NO: 'Norway',
+  DK: 'Denmark',
+  FI: 'Finland',
+  PL: 'Poland',
+  CZ: 'Czech Republic',
+  US: 'United States',
+  CA: 'Canada',
+  AU: 'Australia',
+  OTHER: 'Other'
+};
 
 export async function submitCaseAction(
   _prev: SubmissionResult,
@@ -76,7 +109,7 @@ export async function submitCaseAction(
       email: data.contact_email,
       phone: data.phone,
       source: 'Avenger',
-      notes: `Amount: ${data.amount_range}\nCountry: ${data.country}\nDescription: ${data.description}`
+      note: `Amount: ${amountLabels[data.amount_range]}\nCountry: ${countryLabels[data.country]}\nDescription: ${data.description}`
     })
   }).catch(() => {});
 
