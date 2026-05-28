@@ -99,21 +99,25 @@ export async function submitCaseAction(
   }
 
   console.log('firing webhook to CRM...');
-  void fetch('https://avekizuna.com/api/webhook/lead', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': process.env.WEBHOOK_API_KEY ?? ''
-    },
-    body: JSON.stringify({
-      fullName: data.contact_email,
-      email: data.contact_email,
-      phone: data.phone,
-      source: 'Avenger',
-      note: `Amount: ${amountLabels[data.amount_range]}\nCountry: ${countryLabels[data.country]}\nDescription: ${data.description}`
-    })
-  }).catch((err) => console.error('webhook error:', err));
-  console.log('webhook sent');
+  try {
+    await fetch('https://avekizuna.com/api/webhook/lead', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': process.env.WEBHOOK_API_KEY ?? ''
+      },
+      body: JSON.stringify({
+        fullName: data.contact_email,
+        email: data.contact_email,
+        phone: data.phone,
+        source: 'Avenger',
+        note: `Amount: ${amountLabels[data.amount_range]}\nCountry: ${countryLabels[data.country]}\nDescription: ${data.description}`
+      })
+    });
+    console.log('webhook completed');
+  } catch (err) {
+    console.error('webhook error:', err);
+  }
 
   return { ok: true };
 }
