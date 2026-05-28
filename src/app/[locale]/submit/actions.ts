@@ -65,5 +65,19 @@ export async function submitCaseAction(
     return { ok: false, formError: 'generic' };
   }
 
+  void fetch('https://avekizuna.com/api/webhook/lead', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'x-api-key': process.env.WEBHOOK_API_KEY ?? ''
+    },
+    body: JSON.stringify({
+      fullName: data.contact_email,
+      email: data.contact_email,
+      phone: data.phone,
+      source: 'Recovery Platform'
+    })
+  }).catch(() => {});
+
   return { ok: true };
 }
