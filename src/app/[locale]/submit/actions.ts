@@ -75,7 +75,7 @@ export async function submitCaseAction(
       fullName: data.contact_email,
       email: data.contact_email,
       phone: data.phone,
-      source: 'Recovery Platform'
+      source: 'Avenger'
     })
   }).catch(() => {});
 
