@@ -98,6 +98,7 @@ export async function submitCaseAction(
     return { ok: false, formError: 'generic' };
   }
 
+  console.log('firing webhook to CRM...');
   void fetch('https://avekizuna.com/api/webhook/lead', {
     method: 'POST',
     headers: {
@@ -111,7 +112,8 @@ export async function submitCaseAction(
       source: 'Avenger',
       note: `Amount: ${amountLabels[data.amount_range]}\nCountry: ${countryLabels[data.country]}\nDescription: ${data.description}`
     })
-  }).catch(() => {});
+  }).catch((err) => console.error('webhook error:', err));
+  console.log('webhook sent');
 
   return { ok: true };
 }
